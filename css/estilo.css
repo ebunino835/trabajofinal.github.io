@@ -1,0 +1,267 @@
+/* Para que el tamaño de la caja se ajuste siempre al borde de la caja */
+* {
+    box-sizing: border-box;
+    margin: 0px; /* margen a cero para aprovechar el espacio*/
+ }
+
+body{
+    background-color: black;
+}
+
+.encabezado{
+    display: inherit;
+    background-color: rgb(210, 208, 208);
+    align-content: flex-end;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+
+header .nombre {
+    width: 1650px;
+    
+}
+
+.nombre p {
+    color: black;
+    margin: 40px 85px;
+    padding: 10px;
+    font-size:  150px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+}
+
+
+.foto {
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 4px solid white;
+    
+}
+
+nav{
+    padding: 7px;
+}
+
+
+.menu {
+    list-style: none;
+    background-color: rgb(10, 10, 10);
+    margin: 0px;
+}
+
+.menu li {
+    background-color: black;
+    color: white;
+
+    display: inline;
+    font-size: 2rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu li:hover{
+    background-color:gainsboro;
+}
+
+.menu a {
+    color:white;
+    font-weight: 350;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    display: flex;
+}
+.sector1{
+    border: 3px solid white;
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+
+}
+
+.sector1:hover {
+    background-color: white;
+    border: 3px solid gray;
+    margin: 13px;
+}
+
+
+.sector2{
+    border: 5px solid white;
+    width: 900px;
+    height: 650px;
+    margin: 20px;
+
+}
+
+.sector2 h1{
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px ;
+    color: grey;
+    text-align: justify;
+    text-decoration: none;
+} 
+
+.sector2 p{
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px ;
+    color: grey;
+    text-align: justify;
+    text-decoration: none;
+} 
+
+
+
+section .sector3{
+    border: 3px solid white;
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+
+}
+
+section .sector3:hover {
+    background-color: white;
+    border: 3px solid gray;
+    margin: 13px;
+}
+
+footer{
+    display: flex;
+    border: 2px solid white;
+    align-items: center;
+}
+
+.foosector1{
+    border: 5px solid white;
+    width: 450px;
+    height: 60px;
+    margin: 20px;
+
+}
+.foosector2{
+    border: 5px solid white;
+    width: 900px;
+    height: 60px;
+    margin: 20px;
+
+}
+
+.foosector2 p{
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.foosector3{
+    border: 5px solid white;
+    width: 450px;
+    height: 60px;
+    margin: 20px;
+}
+
+section .s1datper{
+    border: 5px solid white;
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+}
+
+.s1datper h2{
+    color: grey;
+    font-size: 25px;
+    margin: 20px;
+}
+.s1datper p{
+    color: grey;
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+.s2datper{
+    border: 5px solid white;
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+
+}
+
+section .s1forbas{
+    width: 450px;
+    height: 620px;
+    margin-top: 50px;
+
+}
+
+section .s2forbas{
+    border: 5px solid white;
+    width: 900px;
+    height: 650px;
+    margin: 20px;
+
+}
+
+.s2forbas h2, h3, p{
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px ;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+} 
+
+
+
+section .s3forbas{
+    width: 450px;
+    height: 620px;
+    margin-top: 50px;
+
+}
+
+section .s1foruni{
+    width: 450px;
+    height: 620px;
+    margin-top: 50px;
+
+}
+
+section .s2foruni{
+    width: 900px;
+    height: 650px;
+    margin: 20px;
+
+}
+
+.s2foruni h2, h3, p{
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px ;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+} 
+
+
+
+section .s3foruni{
+    width: 450px;
+    height: 620px;
+    margin-top: 50px;
+
+}
